@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import os
 from dotenv import load_dotenv
 
-st.set_page_config(page_title="Gestão de Fundos | Estilo Warren", layout="wide", page_icon="📈")
+st.set_page_config(page_title="Gestão de Fundos", layout="wide", page_icon="📈")
 
 WARREN_PINK = '#EE2E5D'
 WARREN_GREEN = '#10C073'
@@ -36,7 +36,7 @@ def get_connection():
 
 engine = get_connection()
 
-st.title("📊 Portfólio de Investimentos")
+st.title("Portfólio de Investimentos")
 st.markdown("Visão gerencial de fundos com dados processados em tempo real via PostgreSQL.")
 st.divider()
 

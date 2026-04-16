@@ -1,4 +1,4 @@
-#!/home/kaique/Documentos/Projeto_Warren_Investimentos/venv/bin/python3
+#!/home/kaique/Documentos/Projeto_investimentos/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
